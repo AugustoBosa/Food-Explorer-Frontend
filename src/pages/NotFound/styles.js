@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import Lost from "../../assets/Lost.jpg"
+import Lost from "../../assets/lost.jpg"
 
 export const Container = styled.div`
     padding:30px;
