@@ -7,7 +7,7 @@ import { Item } from "../../components/Item"
 import { ItemFiller } from "../../components/ItemFiller"
 import { Button } from "../../components/Button"
 
-import IntroImg from ".../../assets/home.svg"
+import IntroImg from "../../assets/home.svg"
 
 import { useAuth } from "../../hooks/auth"
 import { useState } from "react"
