@@ -233,6 +233,7 @@ export const PayMethods = styled.div`
                     padding: 12px 14px;
                     height: 48px;
                     color: ${({theme})=>theme.COLORS.LIGHT_300};
+                    text-align:center;
 
                     &::-webkit-inner-spin-button {
                     -webkit-appearance: none;

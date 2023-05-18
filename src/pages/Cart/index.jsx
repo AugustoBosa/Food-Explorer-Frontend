@@ -118,16 +118,26 @@ export function Cart(){
 
 	}
 
+	useEffect(() => {
+		const cardNumberRegex = /^[0-9]{16}$/;
+		const cardValidDateRegex = /^(0[1-9]|1[0-2])\/?([0-9]{2})$/;
+		const cardCVCRegex = /^[0-9]{3,4}$/;
 
-	useEffect(()=>{
+	
+		const isCardNumberValid = cardNumberRegex.test(cardNumber);
+		const isCardValidDateValid = cardValidDateRegex.test(cardValidDate);
+		const isCardCVCValid = cardCVCRegex.test(cardCVC);
 
-		if(!cardNumber || !cardValidDate || !cardCVC ){
-			setIsButtonDisabled(true)
-		}else{
-			setIsButtonDisabled(false)
+		console.log(isCardValidDateValid)
+		
+	
+		if (!isCardNumberValid || !isCardValidDateValid || !isCardCVCValid) {
+		  setIsButtonDisabled(true);
+		} else {
+		  setIsButtonDisabled(false);
 		}
-
-	},[cardNumber,cardValidDate,cardCVC])
+	  }, [cardNumber, cardValidDate, cardCVC]);
+	
 	
 	useEffect(()=>{
 
@@ -221,19 +231,30 @@ export function Cart(){
 							>
 								<div>
 									<label htmlFor="cardNumber">Número do Cartão</label>
-									<input id="cardNumber"type="number"
-									onChange={event=>setCardNumber(event.target.value)} />
+									<input 	id="cardNumber"
+											type="number"
+											onChange={event=>setCardNumber(event.target.value)} 
+											placeholder="1234567891234567"
+									/>
 								</div>
 
 								<div>
 									<div>
 										<label htmlFor="cardValidDate">Validade</label>
-										<input id="cardValidDate"type="date"	onChange={event=>setCardValidDate(event.target.value)} />
+										<input 	id="cardValidDate"
+												type="text"
+												onChange={event=>setCardValidDate(event.target.value)} 
+												placeholder="mm/aa"
+											/>
 									</div>
 										
 									<div>
 										<label htmlFor="cardCVC">CVC</label>
-										<input id="cardCVC"type="number"	onChange={event=>setCardCVC(event.target.value)} />
+										<input	 id="cardCVC"
+												type="number"	
+												onChange={event=>setCardCVC(event.target.value)} 
+												placeholder="1234"
+										/>
 									</div>
 
 								</div>
