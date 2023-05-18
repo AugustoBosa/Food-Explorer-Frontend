@@ -31,6 +31,8 @@ export const Container = styled.div`
         >img{
             height:${"clamp(88px, calc(88px + ((100vw - 428px)*0.094)), 176px)"};
             width:${"clamp(88px, calc(88px + ((100vw - 428px)*0.094)), 176px)"};
+
+            
         }
 
         >div{
@@ -62,7 +64,11 @@ export const Container = styled.div`
                 white-space: wrap;
                 text-overflow: ellipsis;
               
-}
+            }
+
+            :hover{
+                cursor:pointer;
+            }
         }
         
         >span{
