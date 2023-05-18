@@ -1,4 +1,5 @@
 # Food Explorer
+[![pt-br](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/AugustoBosa/Food-Explorer-Frontend/blob/main/README.pt-br.md)
 
 > 🍔🌮 An interactive online menu for ordering and paying for food.
 
@@ -17,6 +18,7 @@ Please note that the deployed demo is provided for demonstration purposes and ma
 - 📖 [Usage](#usage)
   - [Client Side](#client-side)
   - [Admin Side](#admin-side)
+  - [Deployment](#deployment)
 - ✨ [Features](#features)
 - 📚 [Documentation](#documentation)
   - [Backend](#backend-documentation)
