@@ -7,6 +7,8 @@ import { Item } from "../../components/Item"
 import { ItemFiller } from "../../components/ItemFiller"
 import { Button } from "../../components/Button"
 
+import IntroImg from ".../../assets/home.svg"
+
 import { useAuth } from "../../hooks/auth"
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
@@ -101,7 +103,7 @@ export function Home(){
 				<main>
 					<Intro>
 						<div>
-							<img src="./src/assets/home.svg" alt="" />
+							<img src={IntroImg} alt="" />
 							<h2>Sabores inigualáveis</h2>
 							<p>Sinta o cuidado do preparo com ingredientes selecionados.</p>
 						</div>
