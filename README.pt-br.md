@@ -242,11 +242,9 @@ Sou grato pela orientação e suporte recebidos durante o desenvolvimento do Foo
 
 ## ⚠️ Manutenção do Projeto <a name="manutenção-do-projeto"></a>
 
-O projeto Food Explorer é mantido ativamente e pode passar por retrabalhos e atualizações para solucionar quaisquer bugs ou problemas que possam surgir no futuro. No momento, nenhum bug foi relatado.
+A manutenção deste projeto foi suspensa.
 
-Observe que os links de implantação fornecidos podem se tornar indisponíveis no futuro devido a vários motivos. Se você tiver dificuldades para acessar o aplicativo ou tiver alguma dúvida, fique à vontade para entrar em contato comigo para obter assistência.
-
-Seus comentários e contribuições são valiosos para melhorar o projeto, portanto, não hesite em relatar bugs ou sugerir melhorias se você encontrá-los. Juntos, podemos tornar o Food Explorer ainda melhor!
+Observe que os links de implantação fornecidos podem se tornar indisponíveis no futuro devido a vários motivos.
 
 
 ## 📞 Contato <a id="contato"></a>
@@ -254,8 +252,6 @@ Seus comentários e contribuições são valiosos para melhorar o projeto, porta
 Para qualquer dúvida ou pergunta, sinta-se à vontade para entrar em contato comigo:
 
 📧 - dev.augustobosa@gmail.com
-
-![image](https://github.com/AugustoBosa/Food-Explorer-Frontend/assets/115903598/347bc18a-8e27-48eb-835f-1411f3229916) -  +55 48 9.9953-1842
 
 ![image](https://github.com/AugustoBosa/Food-Explorer-Frontend/assets/115903598/7451cd53-6201-42ed-bf24-4838179ab9c9) - [AugustoBosa](https://github.com/AugustoBosa)
 
